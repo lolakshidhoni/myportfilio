@@ -1,0 +1,12 @@
+.resume-btn {
+  background: linear-gradient(90deg, #ff00de, #00f2fe);
+  color: white;
+  padding: 12px 30px;
+  border-radius: 30px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.resume-btn:hover {
+  background: linear-gradient(90deg, #00f2fe, #ff00de);
+}

@@ -1,0 +1,21 @@
+.skill-bar {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 30px;
+  overflow: hidden;
+  margin: 15px 0;
+}
+
+.skill-progress {
+  height: 20px;
+  background: linear-gradient(90deg, #ff00de, #00f2fe);
+  animation: loadSkill 2s ease-in-out;
+}
+
+@keyframes loadSkill {
+  from {
+    width: 0;
+  }
+  to {
+    width: var(--skill-level);
+  }
+}
